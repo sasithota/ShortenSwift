@@ -2,9 +2,11 @@ FROM node
 
 WORKDIR /usr/src/app
 
+COPY package.json ./
+
 RUN mkdir /src
 
-RUN npm install -y -g nodemon && npm install -y express
+RUN npm install 
 
-ENTRYPOINT ["nodemon", "src/index.js"]
+ENTRYPOINT ["npx", "nodemon", "src/index.js"]
 
