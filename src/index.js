@@ -1,12 +1,15 @@
+// modules
 const express = require('express');
+const setHandlers = require('./routes/index');
 
+// setup app
 const app = express();
+const PORT = 3000;
 
-app.get('/', (request, response) => {
-	console.log('server access');
-	response.send('hello world');
-})
+// setup handlers
+setHandlers(app);
 
-app.listen(3000, () => {
-	console.log('server is up!!');
+// start server
+app.listen(PORT, () => {
+    console.log("server is up!!!")
 })
