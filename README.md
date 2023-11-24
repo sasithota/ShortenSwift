@@ -13,7 +13,7 @@ Before running the project, make sure you have Docker installed on your machine.
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/sasithota/url_shortner.git
+git clone https://github.com/sasithota/url-shortner.git
 cd url-shortener
 ```
 
