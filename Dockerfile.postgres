@@ -1,0 +1,15 @@
+FROM postgres:16.1
+
+WORKDIR /etc/postgresql/$PG_MAJOR/main/
+RUN echo "host    all             all             127.0.0.1/32            md5" >> pg_hba.conf
+
+# RUN apt-get -y update && apt-get install -y postgresql-client
+# RUN apt-get install sudo
+
+# RUN pg_createcluster 16 main --start
+# # CMD service postgresql start
+# # ENTRYPOINT ["postgres" ]
+# # ENTRYPOINT [ "service", "postgresql", "start" ]
+# CMD su - postgres
+# ENTRYPOINT pg_ctl start -D /var/lib/postgresql/16/main
+# # ENTRYPOINT [ "systemctl", "start", "postgresql" ]C
