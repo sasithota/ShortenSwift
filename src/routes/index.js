@@ -1,6 +1,6 @@
 const methodToHandler = require('./endpoints');
 
-const ALLOWED_METHODS = ['get']
+const ALLOWED_METHODS = ['get', 'post']
 
 function setCoreHandlers(app, method) {
     const pathToHandler = methodToHandler[method];
