@@ -13,8 +13,8 @@ Before running the project, make sure you have Docker installed on your machine.
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/sasithota/url-shortner.git
-cd url-shortener
+git clone https://github.com/sasithota/ShortenSwift.git
+cd ShortenSwift
 ```
 
 ### Start server
