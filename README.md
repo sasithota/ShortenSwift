@@ -1,6 +1,6 @@
-# URL Shortener Project
+# ShortenSwift Project
 
-This is a simple URL shortener project that allows you to create short aliases for long URLs.
+ShortenSwift is a simple URL shortener project that allows you to create short aliases for long URLs.
 
 ## Getting Started
 
